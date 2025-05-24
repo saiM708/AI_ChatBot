@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chatbot Frontend</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container" role="main" aria-label="Chatbot interface">
+    <header class="chat-header">MyAI Chatbot</header>
+    <section class="chat-messages" id="chatMessages" aria-live="polite" aria-relevant="additions"></section>
+    <form class="chat-input" id="chatForm" aria-label="Send message form">
+      <input type="text" id="chatInput" placeholder="Type your message..." aria-label="Message input" autocomplete="off" required />
+      <button type="submit" aria-label="Send message">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
